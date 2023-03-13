@@ -1,0 +1,113 @@
+code {
+    color: #ed4759;
+}
+
+code::before {
+    content: none;
+}
+  
+code::after {
+    content: none;
+}
+
+#write {
+    font-size: 1rem;
+    line-height: 1.625rem;
+    max-width: 58rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    line-height: 2.75rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: -1.5px;
+}
+
+h2 {
+    font-size: 1.63rem;
+    line-height: 1.875rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.17rem;
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 1.12rem;
+    line-height: 1.375rem;
+    margin-bottom: 1.5rem;
+}
+
+h5 {
+    font-size: 0.97rem;
+    line-height: 1.25rem;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+}
+
+h6 {
+    font-size: 0.93rem;
+    line-height: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+pre,
+code,
+kbd,
+tt,
+var {
+    font-size: 0.875em;
+}
+
+/*觉得字体太小，把上面的代码注释掉就行*/
+
+@media only screen and (min-width: 1400px) {
+	#write {
+		max-width: 64rem;
+	}
+}
+
+@media only screen and (min-width: 1800px) {
+	#write {
+		max-width: 75rem;
+	}
+}
+
+
+.cm-s-inner.CodeMirror {
+    background: rgb(244, 244, 244);
+  }
+  .cm-s-inner .cm-header,
+  .cm-s-inner .cm-def {
+    color: #1ba2f0;
+  }
+  .cm-s-inner .cm-comment {
+    color: #009e9d;
+  }
+  .cm-s-inner .cm-quote,
+  .cm-s-inner .cm-link,
+  .cm-s-inner .cm-strong,
+  .cm-s-inner .cm-attribute {
+    color: #fd7741;
+  }
+  .cm-s-inner .cm-url,
+  .cm-s-inner .cm-keyword,
+  .cm-s-inner .cm-builtin {
+    color: #bb51b8;
+  }
+  .cm-s-inner .cm-hr {
+    color: #909090;
+  }
+  .cm-s-inner .cm-tag {
+    color: #107000;
+  }
+  .cm-s-inner .cm-variable-2 {
+    color: #0050a0;
+  }
